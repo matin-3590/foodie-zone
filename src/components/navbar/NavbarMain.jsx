@@ -35,7 +35,7 @@ const NavbarMain = () => {
 
     return (
         <>
-            <nav className={`bg-white/30 backdrop-blur-xl ${hasShadow ? 'shadow-sm' : 'shadow-none'} fixed w-full z-20 dark:bg-gray-700/30 dark:backdrop-blur-xl`}>
+            <nav className={`bg-white/30 backdrop-blur-xl ${hasShadow ? 'shadow-sm' : 'shadow-none'} fixed w-screen z-20 dark:bg-gray-700/30 dark:backdrop-blur-xl`}>
                 <div className="relative max-w-[1280px] px-4 py-3 mx-auto">
                     <div className="flex justify-between items-center">
                         <NavbarBrand />
