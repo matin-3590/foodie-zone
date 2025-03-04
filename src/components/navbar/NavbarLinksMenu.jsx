@@ -17,7 +17,7 @@ const NavbarLinksMenu = ({ menuOpen }) => {
                 <ul className="flex flex-col gap-4 text-center font-josefin">
                     {menuLinks.map((menuLink, index) => (
                         <li key={index}>
-                            <Link to={menuLink.href} spy={true} smooth={true} offset={-75} className="text-gray-600 hover:text-orange-400 transition duration-300 dark:text-white cursor-pointer">{menuLink.link}</Link>
+                            <Link to={menuLink.href} spy={true} smooth={true} offset={-75} className="text-gray-600 hover:text-orange-400 active:text-orange-400 active:transition-none transition duration-300 dark:text-white cursor-pointer">{menuLink.link}</Link>
                         </li>
                     ))}
                 </ul>

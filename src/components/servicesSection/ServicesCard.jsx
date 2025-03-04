@@ -4,9 +4,9 @@ import { fadeIn } from '../../framerMotion/variants';
 
 const ServiceCard = ({ title, image, imgClass, mtClass }) => {
     return (
-        <motion.div variants={fadeIn('opacity', 0.4)} initial={'hidden'} whileInView={'show'} viewport={{ once: false, amount: 0.3 }} className="group bg-slate-100 w-[65%] sm:w-[90%] md:w-[100%] mx-auto shadow-2xl p-3 rounded-2xl relative pb-16 hover:bg-amber-400 transition duration-400 dark:bg-slate-700/50">
+        <motion.div variants={fadeIn('opacity', 0.4)} initial={'hidden'} whileInView={'show'} viewport={{ once: false, amount: 0.3 }} className="group bg-slate-100 w-[65%] sm:w-[90%] md:w-[100%] mx-auto shadow-2xl p-3 rounded-2xl relative pb-16 hover:bg-amber-400 active:bg-amber-400 active:transition-none transition duration-400 dark:bg-slate-700/50">
             <img
-                className={`${imgClass} absolute left-1/2 -translate-x-1/2 group-hover:rotate-10 group-hover:scale-105 transition-all duration-400`}
+                className={`${imgClass} absolute left-1/2 -translate-x-1/2 group-hover:rotate-10 group-hover:scale-105 group-active:rotate-10 group-active:scale-105 group-active:transition-normal transition-all duration-400`}
                 src={image}
                 alt={title}
                 loading='lazy'

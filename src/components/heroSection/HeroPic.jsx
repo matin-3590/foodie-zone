@@ -24,7 +24,7 @@ const HeroPic = () => {
                 <div className="flex flex-row lg:flex-col items-center justify-center gap-4 sm:gap-2 lg:gap-4">
                     {changeImage.map((image, index) => (
                         <div key={index}>
-                            <img onClick={() => handleChangeImage(image.image)} className="w-24 sm:w-60 md:w-24 lg:w-20 transition-all duration-500 hover:scale-110" src={image.src} alt={image.alt} />
+                            <img onClick={() => handleChangeImage(image.image)} className="w-24 sm:w-60 md:w-24 lg:w-20 transition-all duration-500 hover:scale-110 active:scale-110 active:transition-none" src={image.src} alt={image.alt} />
                         </div>
                     ))}
                 </div>

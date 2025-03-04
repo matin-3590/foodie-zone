@@ -13,6 +13,16 @@
     --font-titillium: "Titillium Web", serif;
 }
 
+@layer base {
+    html {
+        @apply overflow-x-hidden;
+    }
+
+    body {
+        @apply overflow-x-hidden relative;
+    }
+}
+
 
 @layer base {
     body {
@@ -23,7 +33,7 @@
 
 @layer components {
     .btn {
-        @apply rounded-full py-1 px-4 text-white cursor-pointer hover:scale-110 transition duration-500
+        @apply rounded-full py-1 px-4 text-white cursor-pointer hover:scale-110 active:scale-110 active:transition-none transition duration-500
     }
 
     .btn-primary {

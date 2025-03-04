@@ -29,7 +29,7 @@ const FooterLinks = () => {
                 <ul className="space-y-4">
                     {links.map((link, index) => (
                         <li key={index}>
-                            <Link to={link.href} spy={true} smooth={true} offset={-75} className="hover:text-amber-500 transition-colors duration-400 cursor-pointer">{link.text}</Link>
+                            <Link to={link.href} spy={true} smooth={true} offset={-75} className="hover:text-amber-500 active:text-amber-500 active:transition-none transition-colors duration-400 cursor-pointer">{link.text}</Link>
                         </li>
                     ))}
                 </ul>
@@ -40,7 +40,7 @@ const FooterLinks = () => {
                 <ul className="space-y-4">
                     {Login.map((login, index) => (
                         <li key={index}>
-                            <Link to={login.href} spy={true} smooth={true} offset={-75} className="hover:text-amber-500 transition-colors duration-400 cursor-pointer">{login.text}</Link>
+                            <Link to={login.href} spy={true} smooth={true} offset={-75} className="hover:text-amber-500 active:text-amber-500 active:transition-none transition-colors duration-400 cursor-pointer">{login.text}</Link>
                         </li>
                     ))}
                 </ul>
@@ -51,7 +51,7 @@ const FooterLinks = () => {
                 <ul className="space-y-4">
                     {lorems.map((lorem, index) => (
                         <li key={index}>
-                            <Link className="hover:text-amber-500 transition-colors duration-400 cursor-pointer">{lorem.text}</Link>
+                            <Link className="hover:text-amber-500 active:text-amber-500 active:transition-none transition-colors duration-400 cursor-pointer">{lorem.text}</Link>
                         </li>
                     ))}
                 </ul>
