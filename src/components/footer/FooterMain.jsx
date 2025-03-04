@@ -7,7 +7,7 @@ import { motion } from "motion/react"
 
 const FooterMain = () => {
     return (
-        <footer className="bg-gray-200 dark:bg-gray-700 pb-12">
+        <footer className="bg-gray-200 dark:bg-gray-700 w-screen pb-12">
             <div className="max-w-7xl mx-auto px-4 mt-14">
                 <div className="flex flex-col md:flex-row md:gap-x-8 md:items-center">
                     <motion.div className="md:w-[50%]" variants={fadeIn('right', 0.3)} initial={'hidden'} whileInView={'show'} viewport={{ once: false, amount: 0.3 }}>
