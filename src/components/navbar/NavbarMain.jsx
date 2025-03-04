@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import NavbarBrand from "./NavBarBrand"
+import NavbarBrand from "./NavbarBrand"
 import NavBarBtn from "./NavBarBtn"
 import NavbarToogle from "./NavbarToogle"
 import NavbarTheme from "./NavbarTheme"

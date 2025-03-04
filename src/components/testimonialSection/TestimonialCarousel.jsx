@@ -10,37 +10,37 @@ const TestimonialCarousel = () => {
 
     const slides = [
         {
-            img: '/public/person/image1.jpg', alt: 'image1',
+            img: '/person/image1.jpg', alt: 'image1',
             text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, ad consequuntur suscipit nemo type fier format text sersuries common bot .',
             title: 'Reza'
         },
 
         {
-            img: '/public/person/image2.jpg', alt: 'image2',
+            img: '/person/image2.jpg', alt: 'image2',
             text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, ad consequuntur suscipit nemo type fier format text sersuries common bot .',
             title: 'Matin'
         },
 
         {
-            img: '/public/person/image11.jpg', alt: 'image3',
+            img: '/person/image11.jpg', alt: 'image3',
             text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, ad consequuntur suscipit nemo type fier format text sersuries common bot .',
             title: 'Maryam'
         },
 
         {
-            img: '/public/person/image12.jpg', alt: 'image4',
+            img: '/person/image12.jpg', alt: 'image4',
             text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, ad consequuntur suscipit nemo type fier format text sersuries common bot .',
             title: 'Nima'
         },
 
         {
-            img: '/public/person/image5.jpg', alt: 'image5',
+            img: '/person/image5.jpg', alt: 'image5',
             text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, ad consequuntur suscipit nemo type fier format text sersuries common bot .',
             title: 'Mahdi'
         },
 
         {
-            img: '/public/person/image6.jpg', alt: 'image6',
+            img: '/person/image6.jpg', alt: 'image6',
             text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, ad consequuntur suscipit nemo type fier format text sersuries common bot .',
             title: 'Ali'
         },

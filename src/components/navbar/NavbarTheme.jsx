@@ -19,8 +19,8 @@ const NavbarTheme = () => {
 
     return (
         <div className="relative">
-            <img onClick={() => setTheme(data => data === 'dark' ? 'light' : 'dark')} className={`w-10 h-6 absolute right-0 z-10 cursor-pointer transition-all duration-500 ${theme === 'light' ? 'opacity-0' : 'opacity-100'}`} src="../../../public/theme/dark-mode-button.png" alt="dark mode" />
-            <img onClick={() => setTheme(data => data === 'dark' ? 'light' : 'dark')} className="w-10 h-6 cursor-pointer transition-all duration-500" src="../../../public/theme/light-mode-button.png" alt="light mode" />
+            <img onClick={() => setTheme(data => data === 'dark' ? 'light' : 'dark')} className={`w-10 h-6 absolute right-0 z-10 cursor-pointer transition-all duration-500 ${theme === 'light' ? 'opacity-0' : 'opacity-100'}`} src="/theme/dark-mode-button.png" alt="dark mode" />
+            <img onClick={() => setTheme(data => data === 'dark' ? 'light' : 'dark')} className="w-10 h-6 cursor-pointer transition-all duration-500" src="/theme/light-mode-button.png" alt="light mode" />
         </div>
     )
 }

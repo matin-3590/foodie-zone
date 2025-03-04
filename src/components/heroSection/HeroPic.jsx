@@ -4,16 +4,16 @@ import { fadeIn } from "../../framerMotion/variants"
 
 const HeroPic = () => {
 
-    const [mainImage, setMainImage] = useState('../../../public/images/biryani3.png')
+    const [mainImage, setMainImage] = useState('/images/biryani3.png')
 
     const handleChangeImage = (image) => {
         setMainImage(image)
     }
 
     const changeImage = [
-        { image: '../../../public/images/biryani3.png', src: '../../../public/images/biryani3.png', alt: 'biryani3' },
-        { image: '../../../public/images/biryani2.png', src: '../../../public/images/biryani2.png', alt: 'biryani2' },
-        { image: '../../../public/images/biryani5.png', src: '../../../public/images/biryani5.png', alt: 'biryani5' },
+        { image: '/images/biryani3.png', src: '/images/biryani3.png', alt: 'biryani3' },
+        { image: '/images/biryani2.png', src: '/images/biryani2.png', alt: 'biryani2' },
+        { image: '/images/biryani5.png', src: '/images/biryani5.png', alt: 'biryani5' },
     ]
 
     return (
