@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&family=Tauri&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import "tailwindcss";
+
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --font-*: initial;
+    --font-roboto: "Roboto", serif;
+    --font-josefin: "Josefin Sans", serif;
+    --font-tauri: "Tauri", serif;
+    --font-sigmar: "Sigmar", serif;
+    --font-titillium: "Titillium Web", serif;
+}
+
+@layer base {
+    html {
+        @apply overflow-x-hidden;
+    }
+
+    body {
+        @apply overflow-x-hidden relative;
+    }
+}
+
+
+@layer base {
+    body {
+        @apply transition duration-400 ease-in-out dark:bg-gray-800
+    }
+}
+
+
+@layer components {
+    .btn {
+        @apply rounded-full py-1 px-4 text-white cursor-pointer hover:scale-110 active:scale-110 active:transition-none transition duration-500
+    }
+
+    .btn-primary {
+        @apply bg-gradient-to-r from-amber-400 to-orange-400
+    }
+}
